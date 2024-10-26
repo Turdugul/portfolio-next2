@@ -20,9 +20,10 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
 
       <p className="mb-3">
-        After gaining 4 years of educational experience, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp, where I
-        learned <span className="font-medium">frontend web development</span>.{' '}
+        After gaining 4 years of educational experience, I changed my career to
+        follow my passion for programming. I enrolled in a coding bootcamp,
+        where I learned{' '}
+        <span className="font-medium">frontend web development</span>.{' '}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect, especially in UI/UX design. I have worked with
         frameworks like Bootstrap, Tailwind, and Styled Components. I{' '}
