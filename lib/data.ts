@@ -6,6 +6,7 @@ import oasisAppImg from '@/public/oasisApp1.png';
 import googleImg from '@/public/google-next1.png';
 import exploreImg from '@/public/explore1.png';
 import oasisImg from '@/public/oasis-website1.png';
+import usePopcornImg from '@/public/usePopcorn.png';
 import React from 'react';
 
 export const links = [
@@ -89,8 +90,8 @@ export const projectsData = [
     repoLink: 'https://github.com/Turdugul/the-willd-oasis-app',
   },
   {
-    title: 'WorldWise travel tracking app',
-    description: `An app where users can register and manage cities they've visited, displayed on an interactive map. It is a Single Page Application (SPA) using React Router for dynamic navigation, with city management through external API data, and geolocation features for an interactive map.`,
+    title: 'Travel Tracking app',
+    description: `This is a Single Page Application (SPA) using React Router for dynamic navigation, with city management through external API data, and geolocation features for an interactive map.`,
     imageUrl: exploreImg,
     tags: ['React Router', 'context API', 'memo', 'useMemo', 'useCallback'],
     demoLink: 'https://world-travel-app.vercel.app/',
@@ -104,6 +105,15 @@ export const projectsData = [
     tags: ['React router', 'Node.js', 'Tailwind'],
     demoLink: 'https://fast-pizza-sandy.vercel.app/',
     repoLink: 'https://github.com/Turdugul/fast-pizza',
+  },
+  {
+    title: 'The "usePopcorn" App.',
+    description:
+      'The "usePopcorn" project is a React app that lets users search for movies, view details, rate them, and manage a watchlist. ',
+    imageUrl: usePopcornImg,
+    tags: ['React', 'API'],
+    demoLink: 'https://use-movie-app.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/use-movie-app',
   },
 ] as const;
 
