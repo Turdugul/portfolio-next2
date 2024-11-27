@@ -121,9 +121,9 @@ export const projectsData = [
     description:
       'React app where users identify country capitals with flags, get instant feedback, track scores, and enjoy a responsive, accessible UI with dark mode.',
     imageUrl: capitalQuiz,
-    tags: ['React', 'Tailwind'],
-    demoLink: 'https://countries-capitals-quiz.vercel.app/',
-    repoLink: 'https://github.com/Turdugul/countries-capitals-quiz',
+    tags: ['React', 'TypeScript', 'Tailwind'],
+    demoLink: 'https://capitals-quiz-language.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/capitals-quiz-language',
   },
 ] as const;
 
