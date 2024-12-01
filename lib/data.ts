@@ -73,6 +73,15 @@ export const projectsData = [
     repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
   },
   {
+    title: 'Countries and Capitals Quiz',
+    description:
+      'React app where users identify country capitals with flags, get instant feedback, track scores, and enjoy a responsive, accessible UI with dark mode.',
+    imageUrl: capitalQuiz,
+    tags: ['React', 'TypeScript', 'Tailwind'],
+    demoLink: 'https://capitals-quiz-language.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/capitals-quiz-language',
+  },
+  {
     title: 'Google Search Clone',
     description:
       'This project integrates the Google Search API to offer both web and image search functionalities, delivering a responsive and modern user experience.',
@@ -116,15 +125,7 @@ export const projectsData = [
     demoLink: 'https://use-movie-app.vercel.app/',
     repoLink: 'https://github.com/Turdugul/use-movie-app',
   },
-  {
-    title: 'Countries and Capitals Quiz',
-    description:
-      'React app where users identify country capitals with flags, get instant feedback, track scores, and enjoy a responsive, accessible UI with dark mode.',
-    imageUrl: capitalQuiz,
-    tags: ['React', 'TypeScript', 'Tailwind'],
-    demoLink: 'https://capitals-quiz-language.vercel.app/',
-    repoLink: 'https://github.com/Turdugul/capitals-quiz-language',
-  },
+
 ] as const;
 
 export const skillsData = [
