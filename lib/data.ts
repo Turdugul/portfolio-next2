@@ -125,7 +125,6 @@ export const projectsData = [
     demoLink: 'https://use-movie-app.vercel.app/',
     repoLink: 'https://github.com/Turdugul/use-movie-app',
   },
-
 ] as const;
 
 export const skillsData = [
