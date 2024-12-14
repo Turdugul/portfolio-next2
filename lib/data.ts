@@ -8,6 +8,7 @@ import exploreImg from '@/public/explore1.png';
 import oasisImg from '@/public/oasis-website1.png';
 import usePopcornImg from '@/public/usePopcorn.png';
 import capitalQuiz from '@/public/capitalQuiz.png';
+import blog1 from '@/public/blog1.png';
 import React from 'react';
 
 export const links = [
@@ -82,6 +83,15 @@ export const projectsData = [
     repoLink: 'https://github.com/Turdugul/capitals-quiz-language',
   },
   {
+    title: 'Blog Application with Dashboard',
+    description:
+      'Built with Next.js for SSR and static generation, using Tailwind CSS for responsive design.',
+    imageUrl: blog1,
+    tags: ['React', 'Next.js', 'Tailwind', 'MongoDB', 'Clerk', 'FireBase'],
+    demoLink: 'https://my-blog-next-js-alpha.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/my-blog-next.js',
+  },
+  {
     title: 'Google Search Clone',
     description:
       'This project integrates the Google Search API to offer both web and image search functionalities, delivering a responsive and modern user experience.',
@@ -89,15 +99,6 @@ export const projectsData = [
     tags: ['React', 'Next.js', 'Node.js', 'API', 'Tailwind'],
     demoLink: 'https://google-search-next-js.vercel.app/',
     repoLink: 'https://github.com/Turdugul/google-search-next.js',
-  },
-  {
-    title: 'The Wild Oasis App',
-    description:
-      'The boutique hotel with cabins, handling bookings, cabins, guests, and check-ins/check-outs, with a dashboard and potential future expansion to a customer-facing site.',
-    imageUrl: oasisAppImg,
-    tags: ['React', 'React Query', 'Supabase', 'Styled-components'],
-    demoLink: 'https://the-willd-oasis-app.vercel.app/dashboard',
-    repoLink: 'https://github.com/Turdugul/the-willd-oasis-app',
   },
   {
     title: 'Travel Tracking app',
@@ -140,6 +141,8 @@ export const skillsData = [
   'Bootstrap',
   'MUI',
   'MongoDB',
+  'Supabase',
+  'Firebase',
   'Redux',
   'GraphQL',
   'Express',
