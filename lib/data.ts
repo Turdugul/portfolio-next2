@@ -1,9 +1,9 @@
 import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
-import pizzaImg from '@/public/pizza11.png';
-import oasisAppImg from '@/public/oasisApp1.png';
-import googleImg from '@/public/google-next1.png';
+
+import elite from '@/public/electr.png';
+
 import exploreImg from '@/public/explore1.png';
 import oasisImg from '@/public/oasis-website1.png';
 import usePopcornImg from '@/public/usePopcorn.png';
@@ -66,6 +66,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Elite Electrical Website',
+    description:
+      'Developed a modern, responsive website for Elite Electrical using Next.js, Tailwind CSS, and TypeScript. Enhanced user interactions with Framer Motion and implemented reusable UI components with shadcn/ui.',
+    imageUrl: elite,
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Framer Motion',
+      'shadcn/ui',
+      'Nodemailer',
+    ],
+    demoLink: 'https://lightning-fix-electric-ex73.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/lightning-fix-electric',
+  },
+  {
     title: 'The Wild Oasis Website',
     description: `Created a customer website for the boutique hotel, enabling guests to explore cabins, book stays, and manage profiles, all synced with the hotel's internal system.`,
     tags: ['React', 'Next.js', 'Node.js', 'Supabase', 'Tailwind'],
@@ -92,30 +108,12 @@ export const projectsData = [
     repoLink: 'https://github.com/Turdugul/my-blog-next.js',
   },
   {
-    title: 'Google Search Clone',
-    description:
-      'This project integrates the Google Search API to offer both web and image search functionalities, delivering a responsive and modern user experience.',
-    imageUrl: googleImg,
-    tags: ['React', 'Next.js', 'Node.js', 'API', 'Tailwind'],
-    demoLink: 'https://google-search-next-js.vercel.app/',
-    repoLink: 'https://github.com/Turdugul/google-search-next.js',
-  },
-  {
     title: 'Travel Tracking app',
     description: `This is a Single Page Application (SPA) using React Router for dynamic navigation, with city management through external API data, and geolocation features for an interactive map.`,
     imageUrl: exploreImg,
     tags: ['React Router', 'context API', 'memo', 'useMemo', 'useCallback'],
     demoLink: 'https://world-travel-app.vercel.app/',
     repoLink: 'https://github.com/Turdugul/world-travel-app',
-  },
-  {
-    title: 'Fast Pizza Ordering App',
-    description:
-      'This project allows users to browse the menu, add pizzas to their cart, and place orders by providing their name, phone number, address, and an optional GPS location for delivery',
-    imageUrl: pizzaImg,
-    tags: ['React router', 'Node.js', 'Tailwind'],
-    demoLink: 'https://fast-pizza-sandy.vercel.app/',
-    repoLink: 'https://github.com/Turdugul/fast-pizza',
   },
   {
     title: 'The "usePopcorn" App.',

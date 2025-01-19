@@ -41,11 +41,11 @@ export default function Project({
           </p>
           <div className="mb-2 flex  items-center flex-row gap-3">
             <a href={demoLink} className="custom-btn1">
-              Demo
+              Live
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </a>
             <a href={repoLink} className="custom-btn1 px-1">
-              Repo
+              GitHub
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </a>
           </div>
@@ -65,7 +65,7 @@ export default function Project({
           src={imageUrl}
           alt="Project I worked on"
           quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+          className="absolute hidden sm:block top-8 -right-40 w-[30.25rem] rounded-t-lg shadow-2xl
         transition 
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
