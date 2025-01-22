@@ -2,13 +2,14 @@ import { CgWorkAlt } from 'react-icons/cg';
 import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 
-import elite from '@/public/electr.png';
+import elite from '@/public/light site.png';
 
 import exploreImg from '@/public/explore1.png';
 import oasisImg from '@/public/oasis-website1.png';
 import usePopcornImg from '@/public/usePopcorn.png';
 import capitalQuiz from '@/public/capitalQuiz.png';
 import blog1 from '@/public/blog1.png';
+import goldenyurt from '@/public/golden.png';
 import React from 'react';
 
 export const links = [
@@ -88,6 +89,24 @@ export const projectsData = [
     imageUrl: oasisImg,
     demoLink: 'https://the-wild-oasis-website-virid.vercel.app/',
     repoLink: 'https://github.com/Turdugul/the-wild-oasis-website',
+  },
+  {
+    title: 'Golden Yurt Cafe Website',
+    description:
+      'Showcasing Central Asian cuisine, this responsive site features a video, testimonials, menu, and Google Maps integration. Built with Next.js, TypeScript, Tailwind CSS, and modern tools like Framer Motion and Nodemailer.',
+    tags: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'Framer Motion',
+      'ShadCN UI',
+      'Nodemailer',
+      'React Hook Form',
+      'React Toast',
+    ],
+    imageUrl: goldenyurt,
+    demoLink: 'https://the-golden-yurt-website.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/the-golden-yurt-website',
   },
   {
     title: 'Countries and Capitals Quiz',
