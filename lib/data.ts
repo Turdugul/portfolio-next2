@@ -3,6 +3,7 @@ import { FaReact } from 'react-icons/fa';
 import { LuGraduationCap } from 'react-icons/lu';
 
 import elite from '@/public/light site.png';
+import mediai from '@/public/medi.png';
 
 import exploreImg from '@/public/explore1.png';
 import oasisImg from '@/public/oasis-website1.png';
@@ -66,6 +67,23 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: 'Dentist’s Assistant Web App',
+    description: `A full-stack app that transcribes dental audio recordings into structured reports using AI.`,
+    tags: [
+      'Next.js',
+      'React',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'JWT',
+      'Whisper API',
+      'GPT-4o-mini',
+    ],
+    imageUrl: mediai,
+    demoLink: 'https://medi-ai-frontend.onrender.com/',
+    repoLink: 'https://github.com/Turdugul/medi-ai',
+  },
   {
     title: 'Elite Electrical Website',
     description:
