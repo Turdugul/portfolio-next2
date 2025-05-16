@@ -35,8 +35,8 @@ export default function About() {
           React, Next.js, Node.js, and MongoDB
         </span>
         . I also have experience with Agile methodologies and Git. I am an
-        effective communicator and team player. Additionally, I am familiar with
-        TypeScript and constantly seek opportunities to learn new technologies.
+        effective communicator and team player.
+        Continuously learning and quick to adopt new tools and frameworks.
         <br />I am currently seeking a{' '}
         <span className="font-medium">full-time position</span> as a software
         developer.
