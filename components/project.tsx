@@ -41,7 +41,7 @@ export default function Project({
           </p>
           <div className="mb-2 flex  items-center flex-row gap-3">
             <a href={demoLink} className="custom-btn1">
-              Live
+              Link
               <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
             </a>
             <a href={repoLink} className="custom-btn1 px-1">
