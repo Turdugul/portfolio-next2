@@ -4,7 +4,7 @@ import { LuGraduationCap } from 'react-icons/lu';
 
 import elite from '@/public/light site.png';
 import mediai from '@/public/medi.png';
-
+import library from '@/public/library demo.png';
 import exploreImg from '@/public/explore1.png';
 import oasisImg from '@/public/oasis-website1.png';
 import usePopcornImg from '@/public/usePopcorn.png';
@@ -83,6 +83,14 @@ export const projectsData = [
     imageUrl: mediai,
     demoLink: 'https://medi-ai-frontend.onrender.com/',
     repoLink: 'https://github.com/Turdugul/medi-ai',
+  },
+  {
+    title: 'Friern Barnet Community Library website',
+    description: `A modern, accessible website for the Friern Barnet Community Library built with Next.js 14, TypeScript, and Tailwind CSS.`,
+    tags: ['Next.js', 'React', 'Node.js', 'Tailwind', 'Firebase'],
+    imageUrl: library,
+    demoLink: 'https://library-fbcl.vercel.app/',
+    repoLink: 'https://github.com/Turdugul/library-fbcl',
   },
   {
     title: 'Elite Electrical Website',
@@ -183,5 +191,4 @@ export const skillsData = [
   'MongoDB',
   'Supabase',
   'Firebase',
- 
 ] as const;
